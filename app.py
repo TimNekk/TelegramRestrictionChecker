@@ -3,8 +3,7 @@ import json
 
 from pyrogram import Client
 
-from printer import print_restrictions_table
-from restriction_checker import RestrictionChecker
+from src import print_restrictions_table, RestrictionChecker
 
 
 def get_config(config_file: str) -> dict:
